@@ -1,0 +1,43 @@
+.forecast {
+  margin: 3% 6%;
+  border: 1px solid #757575;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.accordian {
+  background-color: #f5f5f5 !important;
+  border-radius: 4px !important;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.title {
+  font-size: 23px;
+  font-weight: 700;
+}
+.dailyInfo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.imageIcon {
+  width: 40px;
+  height: 40px;
+}
+.day {
+  font-size: 16px;
+  color: #212121;
+  font-weight: 600;
+  margin-left: 15px;
+}
+.description {
+  flex: 1 1;
+  margin-right: 15px;
+  text-align: right;
+}
+.minmaxTemp {
+  color: #757575;
+}
+.detailText {
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,71 @@
+.card {
+  display: flex;
+  width: 350px;
+  border-radius: 10px !important;
+  color: #fff !important;
+  background-color: #333 !important;
+  margin: 20px auto;
+  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%) !important;
+}
+.content {
+  width: 100%;
+  padding: 10px;
+}
+.topContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cityInfo {
+  margin: 10px;
+}
+.city {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  margin: 5px 0;
+  letter-spacing: 1px;
+}
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0;
+}
+.image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  padding: 0px 10px;
+}
+.bottomContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.temperature {
+  font-weight: 600;
+  font-size: 50px;
+  margin: 10px 5px;
+}
+.details {
+  width: 100%;
+  margin-left: 20px;
+}
+.title {
+  text-align: center;
+  margin: 2px 0px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.label {
+  font-weight: 400;
+  font-size: 14px;
+}
+.value {
+  font-weight: 600;
+  font-size: 14px;
+}
