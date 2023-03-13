@@ -14,6 +14,7 @@ const App = () => {
 
   const fetchWeatherData = () => {
     setLoder(true);
+    setError(false);
 
     const fetchCurrentWeather = fetch(
       `${api_url}/weather?q=${city}&appid=${api_key}&units=metric`
@@ -67,9 +68,7 @@ const App = () => {
 
       {!error ? (
         loader ? (
-          <div id="loader">
             <Loader />
-          </div>
         ) : (
           <>
             {currentWeather && <CurrentWeather data={currentWeather} />}

@@ -15,7 +15,7 @@ const CurrentWeather = ({ data }) => {
   };
 
   return (
-    <Card className="card">
+    <Card className="card" id="current-weather">
       <div className="content">
         <div className="topContent">
           <div className="cityInfo">
