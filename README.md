@@ -1,6 +1,11 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Weather-App](https://weather-app-one-murex.vercel.app)
+
+Weather-App where user can search for any city and get the weather forecast.
+In the search user can see the current weather status and the weather for the next 5 days for any city.
+
+This project was React, Jest, Material UI with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
