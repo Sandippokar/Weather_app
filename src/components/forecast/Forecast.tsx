@@ -56,7 +56,7 @@ const Forecast = ({ data }) => {
               <AccordionDetails>
                 <Grid container spacing={2}>
                   <Grid item xs={4}>
-                    <p className="detailtext">
+                    <p className="detailText">
                       Feels like: <b>{Math.round(item.main.feels_like)}°C</b>
                     </p>
                   </Grid>
